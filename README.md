@@ -1,7 +1,10 @@
 # :game_die:DiceRoller
 
-![1](/screenshot/std.png) 
-![2](/screenshot/example.png)
+
+<p align="center">
+  <img src="/screenshot/std.png" width="350" title="hover text" > 
+  <img src="/screenshot/example.png" width="350" alt="accessibility text">
+</p>
 
 ## About 
 This is the random number generator made in *Python 3*, it is made for tabletop roleplaying game like D&D
@@ -13,10 +16,8 @@ This is the random number generator made in *Python 3*, it is made for tabletop 
 ## Pre-requisites
 For this program to work, Python 3 or higher is required on your machine 
  
-
-
 ## Author
-#### Xarinha legal   
+- Alex Terolti ([@alexadras](https://github.com/alexadras))  
 
 
 
