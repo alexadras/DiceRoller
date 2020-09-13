@@ -55,8 +55,7 @@ def d4():
 
    defaultColor()
    btn_d4["bg"] = "gray"
-   
-   
+    
 def d6():
     global num_lados
     num_lados = 6
@@ -64,7 +63,6 @@ def d6():
 
     defaultColor()
     btn_d6["bg"] = "gray"
-   
     
 def d8():
     global num_lados
@@ -81,8 +79,7 @@ def d10():
     roll()
 
     defaultColor()
-    btn_d10["bg"] = "gray"
-   
+    btn_d10["bg"] = "gray" 
     
 def d12():
     global num_lados
@@ -90,8 +87,7 @@ def d12():
     roll()
 
     defaultColor()
-    btn_d12["bg"] = "gray"
-   
+    btn_d12["bg"] = "gray" 
     
 def d20():
     global num_lados
@@ -100,8 +96,8 @@ def d20():
 
     defaultColor()
     btn_d20["bg"] = "gray"
-   
-   
+  
+
 #Programa 
 win = tk.Tk()
 win.title("Dice roller")
@@ -109,7 +105,6 @@ win.title("Dice roller")
 frm_control = tk.Frame(master=win)
 frm_control.rowconfigure(0, minsize = 100, weight = 1)
 frm_control.columnconfigure([0,1,2], minsize = 100, weight = 1)
-
 
 btn_roll = tk.Button( master=frm_control, text = "roll", command=roll)
 btn_roll["bg"] = "light gray"
@@ -122,7 +117,6 @@ lbl_valor.grid(row=0, column=1, sticky="nsew" )
 btn_plus = tk.Button( master=frm_control , text = "+", command=increase)
 color_default()
 btn_plus.grid( row=0, column=2, sticky="nsew" )
-
 
 #dicTips
 frm_dicTips = tk.Frame(master=win)
@@ -153,15 +147,7 @@ btn_d20 = tk.Button( master=frm_dicTips , text = "d20", command=d20)
 btn_d20["bg"] = "light gray"
 btn_d20.grid(row=0, column=5, sticky="nsew" )
     
-
-
-
 #show conatiner 
 frm_control.pack()
 frm_dicTips.pack()
-
-
 win.mainloop()
-
-
-
