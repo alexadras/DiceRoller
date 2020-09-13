@@ -1,10 +1,5 @@
 # :game_die:DiceRoller
-
-
-<p align="center">
-  <img src="/screenshot/std.png" width="350" title="hover text" > 
-  <img src="/screenshot/example.png" width="350" alt="accessibility text">
-</p>
+![screen1](/screenshot/std.png)
 
 ## About 
 This is the random number generator made in *Python 3*, it is made for tabletop roleplaying game like D&D
