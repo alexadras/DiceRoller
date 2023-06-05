@@ -2,7 +2,7 @@
 ![screen1](/screenshot/std.png)
 
 ## About 
-This is the random number generator made in *Python 3*, it is made for tabletop roleplaying game like D&D
+This is the random number generator made in *Python 3*, it is made for tabletop roleplaying game like D&D 
 
 ## Features 
 * choose the type of the dice between: d4, d6, d8, d10, d12 and d20
